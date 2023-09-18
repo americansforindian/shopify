@@ -1,0 +1,34 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Thumb Button Element */
+/*--------------------------------------------------------------*/
+
+.woocommerce ul.products li.product .product-buttons-wrapper.product-button a.button.product_type_simple:after { content: "\e820"; font-family: 'Trendz Icons';  }
+
+.woocommerce ul.products li.product .product-buttons-wrapper.product-button a.button.product_type_variable:after { content: "\f218"; font-family: 'Trendz Icons'; }
+
+.woocommerce ul.products li.product .product-buttons-wrapper.product-button a.button.add_to_cart_button.product_type_simple:after { content: "\f217"; font-family: 'Trendz Icons'; }
+
+.woocommerce ul.products li.product .product-buttons-wrapper.product-button a.added_to_cart.wc-forward:after { content: "\e843"; font-family: 'Trendz Icons'; z-index: 1; }
+
+.woocommerce ul.products li.product .product-buttons-wrapper.product-button a.button.product_type_external:after { content: "\f08e"; font-family: "Trendz Icons"; }
+
+.woocommerce ul.products li.product .product-buttons-wrapper.product-button a.button.product_type_grouped:after { content: "\f16b"; font-family: 'Trendz Icons'; }
+
+/* #endregion - Thumb IconsGroup Icon */
+
+
+/* Custom icon  */
+
+
+.woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-buttons-wrapper.product-button a.button.product_type_simple:after,
+.woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-buttons-wrapper.product-button a.button.product_type_variable:after,
+.woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-buttons-wrapper.product-button a.button.add_to_cart_button.product_type_simple:after,
+.woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-buttons-wrapper.product-button a.added_to_cart.wc-forward:after,
+.woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-buttons-wrapper.product-button a.button.product_type_external:after,
+.woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-buttons-wrapper.product-button a.button.product_type_grouped:after {
+    content: "" !important; background-color: currentColor; width: 22px; height: 10px; display: block; top: 1px; right: 0; bottom: 0; left: 0; 
+    -webkit-mask-position: center center; mask-position: center center; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; -webkit-mask-size: cover; mask-size: cover; 
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 104 48.534' style='enable-background:new 0 0 104 48.534;' xml:space='preserve'%3E%3Cpath d='M103,24.267c0-1.07-0.504-2.078-1.36-2.72l-27.2-20.4c-1.03-0.773-2.409-0.897-3.561-0.321 c-1.152,0.576-1.88,1.753-1.88,3.041v17H4.4c-1.878,0-3.4,1.523-3.4,3.4s1.522,3.4,3.4,3.4h64.599v17 c0,1.288,0.727,2.465,1.88,3.041c1.152,0.576,2.531,0.452,3.561-0.321l27.2-20.4C102.496,26.344,103,25.337,103,24.267L103,24.267z' /%3E%3C/svg%3E%0A");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 104 48.534' style='enable-background:new 0 0 104 48.534;' xml:space='preserve'%3E%3Cpath d='M103,24.267c0-1.07-0.504-2.078-1.36-2.72l-27.2-20.4c-1.03-0.773-2.409-0.897-3.561-0.321 c-1.152,0.576-1.88,1.753-1.88,3.041v17H4.4c-1.878,0-3.4,1.523-3.4,3.4s1.522,3.4,3.4,3.4h64.599v17 c0,1.288,0.727,2.465,1.88,3.041c1.152,0.576,2.531,0.452,3.561-0.321l27.2-20.4C102.496,26.344,103,25.337,103,24.267L103,24.267z' /%3E%3C/svg%3E%0A");
+}

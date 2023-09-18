@@ -1,0 +1,12 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Listing Style */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-style-default:not(.product-padding-content) li.product.product-grid-view .product-details { padding-top: 20px; padding-bottom: 20px; }
+    .woocommerce ul.products.product-style-default:not(.product-padding-content).wdt-custom-product-default li.product.product-grid-view .product-details { padding: 20px 20px 0px; border: 2px solid; border-color: transparent; border-top: 0; border-bottom: 0; margin-top: 0px; }
+    .woocommerce ul.products.product-style-default:not(.product-padding-content).wdt-custom-product-default li.product.product-grid-view:hover .product-details { border-color: var(--wdtTertiaryColor); }
+    .woocommerce ul.products.product-style-default li.product .product-details > div.product-title:first-child > h5 { margin-top: 0; }
+    .woocommerce nav.woocommerce-pagination ul li .page-numbers.dots { background-color: transparent; border-color: transparent;}
+
+/* #endregion - Product Listing Style */   

@@ -1,0 +1,49 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Accents */
+/*--------------------------------------------------------------*/
+
+	/* Primary */
+    .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button .wc_btn_inline,
+    .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button .wc_btn_inline a,
+    .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button .wc_btn_inline a.button,
+    .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button .wc_btn_inline button,
+    .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button .wc_btn_inline button.button,
+    .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button .wc_btn_inline .button  { 
+        background-color: var(--wdtPrimaryColor);  position: relative; }
+
+        .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button .wc_btn_inline:hover,
+        .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button .wc_btn_inline a:hover,
+        .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button .wc_btn_inline a.button:hover,
+        .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button .wc_btn_inline button:hover,
+        .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button .wc_btn_inline button.button:hover,
+        .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button .wc_btn_inline .button:hover  { 
+            background-color: var(--wdtLinkHoverColor); }    
+
+/* #endregion - Accents */
+
+
+/* Custom thumb button style */
+
+    .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button .wc_btn_inline {
+         position: relative; overflow: visible; }
+    .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button a,
+    .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button a.button,
+    .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button button,
+    .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button button.button,
+    .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button .button,
+
+    .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button a:hover,
+    .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button a.button:hover,
+    .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button button:hover,
+    .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button button.button:hover,
+    .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button .button:hover { 
+        -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+
+        .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button a:after,
+        .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button a.button:after,
+        .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button button:after,
+        .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button button.button:after,
+        .woocommerce ul.products[class*="product-thumb-buttonelement-style-skinbgfill"] li.product .product-thumb .product-buttons-wrapper.product-button .button:after { 
+            font-size: 1rem; font-weight: normal; margin: 0 0 0 12px; position: relative;  text-align: center; width: 22px; overflow: hidden;
+             -webkit-transition: all cubic-bezier(.47,1.21,.47,1.21) .3s; transition: all cubic-bezier(.47,1.21,.47,1.21) .3s; }

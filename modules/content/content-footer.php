@@ -1,0 +1,1 @@
+<?php echo apply_filters( 'trendz_footer_get_template_part', trendz_get_template_part( 'footer', 'templates/footer', '', array() ) ); ?>
